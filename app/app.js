@@ -1,8 +1,9 @@
 $(function () {
 
     console.log("App Started.....");
-
-	function generateConfig(){
+	
+	
+    $("#generateConfig").on("click", function () {
 
 		const title =
 			document.getElementById("examTitle").value.trim();
@@ -43,10 +44,9 @@ $(function () {
 	`;
 
 		document.getElementById("output").value = json;
-
-	}
-
-	function copyOutput(){
+    });
+	
+	$("#copyOutput").on("click", function () {
 
 		const textarea =
 			document.getElementById("output");
@@ -56,9 +56,6 @@ $(function () {
 		navigator.clipboard.writeText(textarea.value);
 
 		alert("Copied!");
-	}
-
-	generateConfig();
-	
+    });
 
 });
