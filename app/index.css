@@ -1,0 +1,119 @@
+body {
+    font-family: Arial;
+}
+
+/* Top banner using your image */
+.top-banner {
+    width: 100%;
+    height: 230px;
+    background-image: url('Bander.jpg');
+    /* Replace with your image file */
+    background-size: cover;
+    background-position: center;
+    margin-top: 40px;
+}
+
+.monaco-bold {
+    font-family: "Monaco", monospace;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.left {
+    font-weight: bold;
+}
+
+.right {
+    opacity: 0.8;
+}
+
+
+.container{
+    background:white;
+    padding:20px;
+    border-radius:8px;
+    max-width:900px;
+    margin:auto;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+button{
+    padding:10px 20px;
+    cursor:pointer;
+	margin: 10px;
+}
+textarea{
+    width:100%;
+    height:400px;
+    margin-top:20px;
+    font-family:Consolas,monospace;
+}
+
+#fileLabel {
+    background-color: yellow;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f2f4f8;
+    margin:40px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+h1{
+    color:#3527F5;
+    margin-top:0;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+button{
+    margin-top:15px;
+    margin-right:10px;
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+textarea{
+    width:100%;
+    height:520px;
+    margin-top:20px;
+    font-family:Consolas,Courier New,monospace;
+    font-size:14px;
+    white-space:pre;
+}
